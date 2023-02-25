@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: white;
+    background-repeat: no-repeat;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Gloock', serif;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+.slideshow {
+    margin: 10px auto;
+    width: 700px;
+    border-radius: 10px;
+}
+audio {
+    width: 700px;
+    margin: 10px auto;
+}
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: rgb(135, 135, 167);
+     color: white;
+}
